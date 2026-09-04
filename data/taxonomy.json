@@ -1,0 +1,24 @@
+{
+  "categories":[
+    {"id":"news","label":"News"},
+    {"id":"agents","label":"Agents"},
+    {"id":"skills-plugins","label":"Skills & Plugins"},
+    {"id":"market-reaction","label":"Market Reaction"},
+    {"id":"developer","label":"Developer"},
+    {"id":"business","label":"Business"},
+    {"id":"infra","label":"Infra"},
+    {"id":"policy","label":"Policy"},
+    {"id":"guides","label":"Guides"}
+  ],
+  "entities":[
+    {"id":"openai","label":"ChatGPT / OpenAI"},
+    {"id":"claude","label":"Claude / Anthropic"},
+    {"id":"gemini","label":"Gemini / Google"},
+    {"id":"grok","label":"Grok / xAI"},
+    {"id":"llama","label":"Llama / Meta"},
+    {"id":"copilot","label":"Copilot / Microsoft"},
+    {"id":"apple-ai","label":"Apple Intelligence"},
+    {"id":"open-source","label":"Open Source"}
+  ],
+  "contentTypes":["release","news","analysis","how-to","community","benchmark","opinion"]
+}

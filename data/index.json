@@ -1,0 +1,38 @@
+{
+  "generatedAt":"2026-09-04T15:00:00+09:00",
+  "items":[
+    {
+      "id":"ai-space-taxonomy",
+      "title":"AI Space는 리포트가 아니라 AI 생태계 전체를 추적하는 허브로 운영합니다",
+      "summary":"모델, Agent, Skills, MCP, 개발 도구, 비즈니스와 커뮤니티 반응을 각각 분리하면서도 하나의 이슈를 여러 카테고리에서 다시 찾을 수 있도록 설계했습니다.",
+      "publishedAt":"2026-09-04",
+      "type":"analysis",
+      "categories":["guides","news"],
+      "entities":[],
+      "tags":["AI Space","taxonomy","agent","skills","community"],
+      "featured":true
+    },
+    {
+      "id":"claude-hub-guide",
+      "title":"Claude 허브: 모델부터 Claude Code, MCP, Skills까지 한 흐름으로 추적",
+      "summary":"Claude 관련 정보는 단순 모델 출시 소식뿐 아니라 에이전트 개발 환경, MCP 연결, Skills, 개발자 활용 사례와 커뮤니티 반응을 함께 축적합니다.",
+      "publishedAt":"2026-09-04",
+      "type":"how-to",
+      "categories":["agents","skills-plugins","developer","guides"],
+      "entities":["claude"],
+      "tags":["Claude Code","MCP","skills","coding agent"],
+      "featured":true
+    },
+    {
+      "id":"market-reaction-guide",
+      "title":"Market Reaction은 단순 인기 순위가 아니라 실제 사용 가치까지 평가합니다",
+      "summary":"Reddit, Hacker News, GitHub, X 등에서 빠르게 확산되는 AI 도구와 워크플로를 추적하고 화제성, 재현 가능성, 유지보수성, 비용과 보안을 분리해 기록합니다.",
+      "publishedAt":"2026-09-04",
+      "type":"community",
+      "categories":["market-reaction","developer"],
+      "entities":["open-source"],
+      "tags":["Reddit","Hacker News","GitHub","trending","open source"],
+      "featured":true
+    }
+  ]
+}
