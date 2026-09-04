@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="AI 모델, 에이전트, 스킬, 플러그인, 시장 반응을 한곳에 모은 AI 종합 인텔리전스 허브" />
+  <meta name="description" content="AI 뉴스, 모델, 에이전트, 프롬프트, 업무 활용법과 시장 반응을 한곳에 모은 AI 종합 허브" />
   <title>AI Space</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
@@ -27,24 +27,26 @@
   <main class="container">
     <section class="hero">
       <p class="eyebrow">AI intelligence community</p>
-      <h1>AI 업계의 변화가<br/>한곳에 쌓이는 공간</h1>
-      <p class="hero-copy">모델 릴리즈부터 Agent, Skills, MCP, 개발 도구, 시장 반응과 커뮤니티 이슈까지. 하나의 콘텐츠를 여러 맥락에서 다시 찾을 수 있도록 축적합니다.</p>
+      <h1>오늘의 AI 변화와<br/>실전 활용 지식을 한곳에</h1>
+      <p class="hero-copy">News, Models, Agents, Skills, Work Hacks, Prompts, Tools와 시장 반응까지. 매일 새로 생기는 정보와 시간이 지나도 남는 실전 지식을 함께 축적합니다.</p>
       <div id="activeFilters" class="active-filters"></div>
     </section>
 
     <section id="searchPanel" class="search-panel hidden">
       <label for="searchInput">전체 검색</label>
-      <input id="searchInput" type="search" placeholder="Claude, MCP, Agent, API, 커뮤니티 반응…" autocomplete="off" />
+      <input id="searchInput" type="search" placeholder="Claude, Seedance, MCP, 업무 자동화, 이미지 프롬프트…" autocomplete="off" />
     </section>
 
-    <section class="section-block">
-      <div class="section-head"><div><p class="eyebrow">Featured</p><h2>지금 가장 중요한 변화</h2></div></div>
-      <div id="featuredGrid" class="featured-grid"></div>
+    <section class="section-block daily-section">
+      <div class="section-head"><div><p class="eyebrow">Daily Report</p><h2>오늘의 AI 브리핑</h2></div><span class="muted">매일 오전 10시</span></div>
+      <div id="dailyReport"></div>
     </section>
+
+    <section id="homeHubs" class="hub-sections"></section>
 
     <section class="content-layout">
       <div>
-        <div class="section-head"><div><p class="eyebrow">Latest</p><h2 id="latestTitle">최신 콘텐츠</h2></div><span id="resultCount" class="muted"></span></div>
+        <div class="section-head"><div><p class="eyebrow">All stories</p><h2 id="latestTitle">최신 콘텐츠</h2></div><span id="resultCount" class="muted"></span></div>
         <div id="latestList" class="latest-list"></div>
       </div>
       <aside>
@@ -54,9 +56,9 @@
           <div id="trendingTags" class="tag-cloud"></div>
         </section>
         <section class="side-card">
-          <p class="eyebrow">Daily Brief</p>
-          <h3>매일 오전 10시</h3>
-          <p class="muted">전일 핵심 변화를 종합하고, 개별 이슈는 카테고리와 기업별 콘텐츠로 분해해 누적합니다.</p>
+          <p class="eyebrow">Playbook</p>
+          <h3>실전 사전</h3>
+          <p class="muted">업무 활용법, 모델별 프롬프트, 이미지·영상 생성 추천, 버전별 특징을 축적합니다.</p>
         </section>
       </aside>
     </section>
