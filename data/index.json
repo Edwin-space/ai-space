@@ -1,6 +1,294 @@
 {
-  "generatedAt":"2026-09-04T15:00:00+09:00",
+  "generatedAt":"2026-09-04T15:20:00+09:00",
   "items":[
+    {
+      "id":"daily-brief-2026-09-04",
+      "title":"AI Daily Brief — 2026.09.04",
+      "summary":"GPT-6 Astra 공개, Claude Fable 5.1·Mythos 5.1, Gemini 3.8 Flash 등 프런티어 모델 업데이트와 Agent·Skills·MCP·생성형 미디어 생태계의 핵심 변화를 한 번에 정리합니다.",
+      "publishedAt":"2026-09-04",
+      "type":"daily-brief",
+      "categories":["news","models","agents"],
+      "entities":["openai","claude","gemini"],
+      "tags":["Daily Brief","GPT-6 Astra","Claude Fable 5.1","Gemini 3.8 Flash","Agents"],
+      "featured":true
+    },
+    {
+      "id":"openai-gpt6-astra-2026-09-03",
+      "title":"GPT-6 Astra 공개: 코딩·리서치·컴퓨터 사용·장기 작업이 핵심",
+      "summary":"OpenAI는 GPT-6 Astra를 제한된 조직에 우선 배포하기 시작했습니다. 코딩, 리서치, computer use, 복잡한 multi-step 작업과 문서·스프레드시트·프레젠테이션 생성 능력을 전면에 내세웠습니다.",
+      "publishedAt":"2026-09-03",
+      "type":"release",
+      "categories":["news","models","agents","developer"],
+      "entities":["openai"],
+      "tags":["GPT-6 Astra","computer use","coding","long-running agent"],
+      "featured":true,
+      "url":"https://help.openai.com/en/articles/6825453"
+    },
+    {
+      "id":"openai-astra-playco-2026-09-03",
+      "title":"GPT-6 Astra 실사용 사례: Playco는 게임 프로토타입 수동 수정량을 50% 줄였다",
+      "summary":"Playco는 Astra를 Unity·Godot 같은 게임 엔진과 연결해 장면 수정, 테스트, 버그 탐지와 반복 개선을 수행했고 이전 모델 대비 수동 수정량을 절반으로 줄였다고 밝혔습니다.",
+      "publishedAt":"2026-09-03",
+      "type":"analysis",
+      "categories":["models","agents","work-hacks","developer"],
+      "entities":["openai"],
+      "tags":["GPT-6 Astra","game development","agent workflow","Unity","Godot"],
+      "featured":false,
+      "url":"https://openai.com/index/playco-game-prototyping-with-astra/"
+    },
+    {
+      "id":"openai-healthcare-plugins-2026-09-01",
+      "title":"ChatGPT·Codex Healthcare Plugins 정식 공개",
+      "summary":"Healthcare Public Data와 Epic 플러그인이 추가됐습니다. 전자는 9개 공공 의료 데이터 소스를 검색하고, Epic은 승인된 환자 정보를 읽기 전용으로 조회합니다.",
+      "publishedAt":"2026-09-01",
+      "type":"release",
+      "categories":["news","skills-plugins","tools"],
+      "entities":["openai"],
+      "tags":["ChatGPT Plugins","Codex","Healthcare","Epic"],
+      "featured":false,
+      "url":"https://openai.com/products/release-notes/"
+    },
+    {
+      "id":"openai-codex-role-plugins-2026-06-02",
+      "title":"Codex가 개발자 도구를 넘어 역할별 업무 도구로 확장되는 이유",
+      "summary":"OpenAI는 역할별 Plugins, Sites, annotations를 통해 Codex를 분석가·마케터·운영·디자인·리서치 업무까지 확장했습니다. 비개발자 사용자가 전체의 약 20%까지 늘었다고 밝혔습니다.",
+      "publishedAt":"2026-06-02",
+      "type":"analysis",
+      "categories":["skills-plugins","work-hacks","developer","business"],
+      "entities":["openai"],
+      "tags":["Codex","Plugins","knowledge work","workflow automation"],
+      "featured":false,
+      "url":"https://openai.com/index/codex-for-every-role-tool-workflow/"
+    },
+    {
+      "id":"openai-codex-long-running-work-2026-06-22",
+      "title":"Codex 장기 작업 운영법: 큰 목표를 검증 가능한 단계로 나누기",
+      "summary":"OpenAI의 장기 실행 Codex 가이드는 복잡한 목표를 검증 가능한 단계로 분해하고, 컨텍스트를 유지하며, 사람의 승인과 Agent 실행을 어디서 나눌지 설계하는 방법을 설명합니다.",
+      "publishedAt":"2026-06-22",
+      "type":"workflow",
+      "categories":["agents","work-hacks","guides","developer"],
+      "entities":["openai"],
+      "tags":["Codex","long-running work","workflow","human approval"],
+      "featured":false,
+      "difficulty":"Medium",
+      "recommendation":"Recommended",
+      "url":"https://openai.com/index/codex-maxxing-long-running-work/"
+    },
+    {
+      "id":"claude-fable-mythos-5-1-2026-09-01",
+      "title":"Claude Fable 5.1·Mythos 5.1: 코딩·지식업무와 고위험 연구를 분리한 모델 전략",
+      "summary":"Fable 5.1은 일반 사용 가능한 최상위 Claude 모델로 장시간 비동기 작업에 초점을 두고, Mythos 5.1은 사이버보안·생물학 연구를 위한 제한 접근 모델로 운영됩니다.",
+      "publishedAt":"2026-09-01",
+      "type":"release",
+      "categories":["news","models","agents","developer"],
+      "entities":["claude"],
+      "tags":["Claude Fable 5.1","Claude Mythos 5.1","coding","knowledge work"],
+      "featured":true,
+      "url":"https://www.anthropic.com/claude/fable"
+    },
+    {
+      "id":"claude-opus5-long-running-agents-2026-07-24",
+      "title":"Claude Opus 5: 장시간 실행 Agent와 전문 업무를 위한 Opus 계열의 큰 변화",
+      "summary":"Anthropic은 Opus 5를 long-running agents, coding, professional work에 초점을 둔 Opus 계열의 단계적 향상으로 소개했습니다.",
+      "publishedAt":"2026-07-24",
+      "type":"release",
+      "categories":["models","agents","developer"],
+      "entities":["claude"],
+      "tags":["Claude Opus 5","long-running agent","coding"],
+      "featured":false,
+      "url":"https://www.anthropic.com/news"
+    },
+    {
+      "id":"claude-model-hardware-standard-2026-08-27",
+      "title":"Anthropic MHS: AI Agent가 로봇팔·현미경 같은 실제 장비까지 조작하는 표준",
+      "summary":"Model Hardware Standard는 Agent가 여러 실험·제조 장비를 병렬로 제어할 수 있게 하는 공유 규격입니다. 물리 세계의 도구 연결이 API·MCP 다음 단계로 확장되는 흐름을 보여줍니다.",
+      "publishedAt":"2026-08-27",
+      "type":"analysis",
+      "categories":["news","agents","tools","developer"],
+      "entities":["claude"],
+      "tags":["MHS","physical agents","robotics","tool use"],
+      "featured":false,
+      "url":"https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    },
+    {
+      "id":"claude-supabase-enterprise-mcp-2026-08-24",
+      "title":"Supabase MCP가 Claude에서 엔터프라이즈 관리형 인증을 지원",
+      "summary":"기업 관리자는 Okta를 통해 Claude에서 Supabase MCP 접근을 중앙 관리하고 각 사용자의 기존 권한 범위로 제한할 수 있게 됐습니다. MCP의 운영 단계가 개인 개발자용 연결에서 기업 권한관리로 이동하고 있습니다.",
+      "publishedAt":"2026-08-24",
+      "type":"release",
+      "categories":["skills-plugins","developer","tools","business"],
+      "entities":["claude"],
+      "tags":["Supabase","MCP","Okta","enterprise auth"],
+      "featured":false,
+      "url":"https://supabase.com/blog/tags/ai"
+    },
+    {
+      "id":"gemini-3-8-flash-2026-09-02",
+      "title":"Gemini 3.8 Flash: 같은 가격에서 Agent·코딩·다단계 추론을 강화",
+      "summary":"Google은 3.7 Flash와 동일한 introductory price를 유지하면서 software engineering, agentic tasks, multi-step reasoning을 강화한 3.8 Flash를 공개했습니다.",
+      "publishedAt":"2026-09-02",
+      "type":"release",
+      "categories":["news","models","agents","developer"],
+      "entities":["gemini"],
+      "tags":["Gemini 3.8 Flash","coding","agentic tasks","reasoning"],
+      "featured":true,
+      "url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+    },
+    {
+      "id":"gemini-3-5-transcribe-2026-08-26",
+      "title":"Gemini 3.5 Transcribe: 음성을 바로 정제된 문서 수준 텍스트로 변환",
+      "summary":"Google의 최신 STT 모델은 소음, 전문 용어, 말 더듬기와 추임새를 처리하면서 단순 받아쓰기보다 맥락을 반영한 정제·형식화 텍스트 생성을 강조합니다.",
+      "publishedAt":"2026-08-26",
+      "type":"release",
+      "categories":["models","tools","work-hacks"],
+      "entities":["gemini"],
+      "tags":["Gemini 3.5 Transcribe","speech-to-text","meeting notes","voice agent"],
+      "featured":false,
+      "url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/"
+    },
+    {
+      "id":"gemini-connected-apps-2026-08-12",
+      "title":"Gemini Connected Apps 확장: 회의 요약부터 예약·웹사이트 편집까지",
+      "summary":"Gemini는 Granola, Otter.ai, Wix, Ticketmaster 등 외부 서비스 연결을 확대했습니다. 대화형 모델이 실제 업무와 생활 서비스 실행 허브로 이동하는 흐름입니다.",
+      "publishedAt":"2026-08-12",
+      "type":"release",
+      "categories":["skills-plugins","tools","work-hacks"],
+      "entities":["gemini"],
+      "tags":["Gemini Apps","Otter.ai","Wix","workflow"],
+      "featured":false,
+      "url":"https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/"
+    },
+    {
+      "id":"gemini-omni-video-playbook-2026-08-07",
+      "title":"Gemini Omni 영상 생성·편집 프롬프트는 '대화형 수정'을 전제로 설계하는 편이 좋다",
+      "summary":"Gemini Omni는 이미지·오디오·영상·텍스트 입력을 바탕으로 영상을 만들고, 카메라 각도·오브젝트·애니메이션을 대화로 수정하는 방식이 강점입니다. 한 번에 완벽한 프롬프트보다 단계적 수정 플로우가 적합합니다.",
+      "publishedAt":"2026-08-07",
+      "type":"prompt",
+      "categories":["models","prompts","tools","guides"],
+      "entities":["gemini"],
+      "tags":["Gemini Omni","video generation","prompting","conversational editing"],
+      "featured":false,
+      "promptTemplate":"목표 영상과 핵심 장면을 먼저 생성한 뒤, 카메라 각도·오브젝트·동작·분위기를 한 요소씩 대화형으로 수정합니다.",
+      "url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/"
+    },
+    {
+      "id":"openai-image-prompt-guide-2026-04-10",
+      "title":"ChatGPT 이미지 프롬프트 공식 가이드: 1~3문장으로 목적·주제·상황·스타일을 명확히",
+      "summary":"OpenAI는 긴 키워드 나열보다 이미지 목적, 주요 피사체, 상황과 원하는 시각 스타일을 1~3개의 명확한 문장으로 전달하는 방식을 권장합니다.",
+      "publishedAt":"2026-04-10",
+      "type":"prompt",
+      "categories":["prompts","work-hacks","guides","tools"],
+      "entities":["openai"],
+      "tags":["image generation","prompting","infographic","creative workflow"],
+      "featured":false,
+      "promptTemplate":"[이미지의 목적]. [주요 피사체와 상황]. [원하는 시각 스타일·구도·필요한 텍스트].",
+      "url":"https://openai.com/academy/image-generation/"
+    },
+    {
+      "id":"seedance-2-5-playbook-2026-07-31",
+      "title":"Seedance 2.5 가이드: 30초 원테이크·레퍼런스·편집을 중심으로 프롬프트 설계",
+      "summary":"Seedance 2.5는 한 번에 최대 30초 오디오·비디오 생성, 다회 연장, multimodal reference와 editing이 핵심입니다. 짧은 클립보다 완성된 장면의 흐름과 레퍼런스 일관성을 명시하는 방식이 적합합니다.",
+      "publishedAt":"2026-07-31",
+      "type":"prompt",
+      "categories":["models","prompts","tools","guides"],
+      "entities":["seedance"],
+      "tags":["Seedance 2.5","video generation","reference","storytelling"],
+      "featured":false,
+      "modelVersion":"2.5",
+      "previousVersion":"2.0",
+      "promptTemplate":"[30초 안의 장면 진행] + [주요 피사체] + [카메라 움직임] + [오디오/대사] + [유지할 레퍼런스 요소] + [편집 지시]",
+      "url":"https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+    },
+    {
+      "id":"seedream-5-pro-playbook-2026-07-08",
+      "title":"Seedream 5.0 Pro 가이드: 인포그래픽·텍스트·정밀 편집이 강한 이미지 모델",
+      "summary":"Seedream 5.0 Pro는 image-text alignment, 구조적 일관성, 텍스트 렌더링과 고밀도 정보 시각화가 개선됐고, 공간 위치와 영역을 이해하는 interactive editing을 강조합니다.",
+      "publishedAt":"2026-07-08",
+      "type":"prompt",
+      "categories":["models","prompts","tools","guides"],
+      "entities":["seedream"],
+      "tags":["Seedream 5.0 Pro","image generation","infographic","text rendering","editing"],
+      "featured":false,
+      "modelVersion":"5.0 Pro",
+      "promptTemplate":"[사용 목적/출력 비율] + [정보 구조와 레이아웃] + [표시할 정확한 텍스트] + [시각 스타일] + [수정할 위치/영역]",
+      "url":"https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro"
+    },
+    {
+      "id":"vercel-design-md-2026-08-31",
+      "title":"design.md로 AI Agent가 브랜드 스타일을 지키게 만드는 패턴",
+      "summary":"Vercel은 Agent가 페이지를 만들 때 브랜드와 디자인 시스템을 일관되게 적용하도록 design.md를 사용하는 방식을 소개했습니다. 디자인 토큰·컴포넌트·금지 패턴을 Agent가 읽는 실행 규칙으로 만드는 접근입니다.",
+      "publishedAt":"2026-08-31",
+      "type":"workflow",
+      "categories":["work-hacks","developer","guides","skills-plugins"],
+      "entities":["open-source"],
+      "tags":["design.md","design system","coding agent","brand consistency"],
+      "featured":false,
+      "difficulty":"Low",
+      "recommendation":"Highly Recommended",
+      "url":"https://vercel.com/blog"
+    },
+    {
+      "id":"vercel-agent-slack-2026-08-19",
+      "title":"Slack 대화에서 바로 장애 진단·PR 검토·수정까지: Vercel Agent 워크플로",
+      "summary":"Vercel Agent는 Slack 스레드의 맥락을 읽고 인프라 질문에 답하거나 승인 가능한 변경으로 이어갈 수 있습니다. 업무 대화와 실행 도구 사이의 전환을 줄이는 대표적인 Agent UX 사례입니다.",
+      "publishedAt":"2026-08-19",
+      "type":"workflow",
+      "categories":["agents","work-hacks","developer","tools"],
+      "entities":["open-source"],
+      "tags":["Vercel Agent","Slack","incident response","PR review"],
+      "featured":false,
+      "difficulty":"Medium",
+      "recommendation":"Recommended for teams",
+      "url":"https://vercel.com/blog/introducing-vercel-for-slack"
+    },
+    {
+      "id":"community-agent-skills-stack-2026-08-28",
+      "title":"커뮤니티 핫 스택: 코드 리뷰·Evals·MCP Builder를 Agent Skill로 묶는 방식",
+      "summary":"r/aiagents에서 높은 반응을 얻은 Skills 스택은 코드 품질 리뷰, eval 진단, MCP 서버 빌더, 프롬프트 엔지니어링을 각각 독립 Skill로 설치해 조합하는 패턴을 보여줍니다.",
+      "publishedAt":"2026-08-28",
+      "type":"community",
+      "categories":["skills-plugins","market-reaction","developer","work-hacks"],
+      "entities":["claude","openai","open-source"],
+      "tags":["Agent Skills","code review","evals","MCP Builder","Reddit"],
+      "featured":false,
+      "url":"https://www.reddit.com/r/aiagents/comments/1w12382/my_agent_skills_stack_in_2026/"
+    },
+    {
+      "id":"community-claude-skill-discovery-2026-08-17",
+      "title":"Claude 사용자들이 Skills를 찾는 방식 자체가 하나의 시장이 되고 있다",
+      "summary":"r/ClaudeAI에서 Claude Skills와 workflow 발견 경로를 묻는 글이 높은 반응을 얻었고, GitHub·X·Instagram·skills.sh 같은 디렉터리가 반복적으로 언급됐습니다. Skill discovery가 별도 제품 카테고리로 형성되는 신호입니다.",
+      "publishedAt":"2026-08-17",
+      "type":"community",
+      "categories":["skills-plugins","market-reaction","tools"],
+      "entities":["claude"],
+      "tags":["Claude Skills","skills.sh","GitHub","Instagram","Reddit"],
+      "featured":false,
+      "url":"https://www.reddit.com/r/ClaudeAI/comments/1vqv6pp/how_are_you_guys_discovering_new_claude_skills/"
+    },
+    {
+      "id":"community-mcp-context-cost-2026-08-20",
+      "title":"MCP 많이 설치하기보다 필요한 것만: 커뮤니티가 지적하는 Context 비용 문제",
+      "summary":"인기 MCP 목록에 대한 r/ClaudeAI 토론에서는 사용 빈도가 낮은 MCP를 상시 연결하면 context와 tool 비용이 늘어난다는 반론이 강했습니다. 일부 사용자는 로컬 CLI나 Skill이 더 효율적이라고 평가했습니다.",
+      "publishedAt":"2026-08-20",
+      "type":"community",
+      "categories":["skills-plugins","market-reaction","developer","guides"],
+      "entities":["claude","open-source"],
+      "tags":["MCP","context cost","CLI","skills","Reddit"],
+      "featured":false,
+      "url":"https://www.reddit.com/r/ClaudeAI/comments/1vttte2/compiled_a_list_of_best_mcp_2026/"
+    },
+    {
+      "id":"community-agent-receipts-2026-09-01",
+      "title":"Agent가 '완료'라고 말하기 전에 증거를 요구하는 Receipts Skill",
+      "summary":"Claude 프로젝트 쇼케이스에서 공유된 Receipts Skill은 테스트·빌드 결과와 output hash를 증거로 남기고 코드가 바뀌면 증거를 stale 처리합니다. Agent QA를 말이 아니라 검증 가능한 artifact로 바꾸는 접근입니다.",
+      "publishedAt":"2026-09-01",
+      "type":"community",
+      "categories":["skills-plugins","market-reaction","developer","work-hacks"],
+      "entities":["claude","open-source"],
+      "tags":["Agent QA","receipts","testing","verification","skills"],
+      "featured":false,
+      "url":"https://www.reddit.com/r/ClaudeAI/comments/1w1kpf2/claude_project_showcase_discussion_hub_updated_on/"
+    },
     {
       "id":"ai-space-taxonomy",
       "title":"AI Space는 리포트가 아니라 AI 생태계 전체를 추적하는 허브로 운영합니다",
@@ -10,7 +298,7 @@
       "categories":["guides","news"],
       "entities":[],
       "tags":["AI Space","taxonomy","agent","skills","community"],
-      "featured":true
+      "featured":false
     },
     {
       "id":"claude-hub-guide",
@@ -21,7 +309,7 @@
       "categories":["agents","skills-plugins","developer","guides"],
       "entities":["claude"],
       "tags":["Claude Code","MCP","skills","coding agent"],
-      "featured":true
+      "featured":false
     },
     {
       "id":"market-reaction-guide",
@@ -32,7 +320,7 @@
       "categories":["market-reaction","developer"],
       "entities":["open-source"],
       "tags":["Reddit","Hacker News","GitHub","trending","open source"],
-      "featured":true
+      "featured":false
     }
   ]
 }
