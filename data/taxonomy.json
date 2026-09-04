@@ -1,8 +1,12 @@
 {
   "categories":[
     {"id":"news","label":"News"},
+    {"id":"models","label":"Models"},
     {"id":"agents","label":"Agents"},
     {"id":"skills-plugins","label":"Skills & Plugins"},
+    {"id":"work-hacks","label":"Work Hacks"},
+    {"id":"prompts","label":"Prompts"},
+    {"id":"tools","label":"Tools"},
     {"id":"market-reaction","label":"Market Reaction"},
     {"id":"developer","label":"Developer"},
     {"id":"business","label":"Business"},
@@ -18,7 +22,24 @@
     {"id":"llama","label":"Llama / Meta"},
     {"id":"copilot","label":"Copilot / Microsoft"},
     {"id":"apple-ai","label":"Apple Intelligence"},
+    {"id":"seedance","label":"Seedance"},
+    {"id":"seedream","label":"Seedream"},
+    {"id":"sora","label":"Sora"},
+    {"id":"veo","label":"Veo"},
+    {"id":"midjourney","label":"Midjourney"},
+    {"id":"runway","label":"Runway"},
     {"id":"open-source","label":"Open Source"}
   ],
-  "contentTypes":["release","news","analysis","how-to","community","benchmark","opinion"]
+  "contentTypes":["daily-brief","release","news","analysis","how-to","community","benchmark","prompt","tool-review","workflow","opinion"],
+  "homeHubs":[
+    {"kind":"entity","id":"claude","label":"Claude"},
+    {"kind":"entity","id":"openai","label":"ChatGPT / OpenAI"},
+    {"kind":"entity","id":"gemini","label":"Gemini"},
+    {"kind":"category","id":"agents","label":"Agents"},
+    {"kind":"category","id":"skills-plugins","label":"Skills & Plugins"},
+    {"kind":"category","id":"work-hacks","label":"Work Hacks"},
+    {"kind":"category","id":"prompts","label":"Prompts"},
+    {"kind":"category","id":"market-reaction","label":"Market Reaction"},
+    {"kind":"category","id":"developer","label":"Developer"}
+  ]
 }
